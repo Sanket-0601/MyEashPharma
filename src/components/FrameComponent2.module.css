@@ -1,0 +1,523 @@
+.welcomeToMyeasypharma {
+  margin: 0;
+  height: 42px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.alreadyHaveAn {
+  color: var(--color-darkslategray-200);
+}
+.span {
+  color: var(--color-dimgray-100);
+}
+.logIn {
+  text-decoration: underline;
+  white-space: pre-wrap;
+}
+.alreadyHaveAnContainer {
+  position: relative;
+  font-weight: 500;
+}
+.formRow,
+.haveAnAccountLogin,
+.loginForm {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.haveAnAccountLogin {
+  flex-direction: row;
+  padding: var(--padding-11xs);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.formRow,
+.loginForm {
+  flex-direction: column;
+}
+.loginForm {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+}
+.formRow {
+  width: 432px;
+  padding: var(--padding-lg) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.image4Icon {
+  height: 105px;
+  width: 105px;
+  position: relative;
+  object-fit: cover;
+}
+.imageAndFormColumn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.icon,
+.label {
+  position: relative;
+}
+.label {
+  font-weight: 500;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.hideIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.hide {
+  position: relative;
+  font-weight: 500;
+}
+.passwordHideSee,
+.passwordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.passwordHideSee {
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+  text-align: right;
+  font-size: var(--text-2-strong-size);
+  color: var(--color-dimgray-400);
+}
+.passwordWrapper {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: 0 var(--padding-4xs) 0 0;
+  gap: var(--gap-xl);
+}
+.textField1 {
+  border: 1px solid var(--color-dimgray-500);
+  outline: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 56px;
+  position: relative;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 250px;
+}
+.errorMessage {
+  width: 101px;
+  position: relative;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-poppins);
+  color: var(--color-crimson);
+  display: none;
+}
+.textField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.bulletIconOneChild {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.bulletIconOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.oneLowercaseCharacter {
+  position: relative;
+  font-weight: 500;
+}
+.bulletPoint {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.bulletIconTwoChild {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.bulletIconTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.oneLowercaseCharacter1 {
+  position: relative;
+  font-weight: 500;
+}
+.bulletItems,
+.bulletPoint1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bulletPoint1 {
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.bulletItems {
+  flex-direction: column;
+}
+.frameChild {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.bulletPointInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.oneLowercaseCharacter2 {
+  position: relative;
+  font-weight: 500;
+}
+.bulletPoint2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.frameItem {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.bulletPointChild {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.oneLowercaseCharacter3 {
+  position: relative;
+  font-weight: 500;
+}
+.bulletItems1,
+.bulletPoint3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bulletPoint3 {
+  flex-direction: row;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.bulletItems1 {
+  flex-direction: column;
+}
+.bulletCircleChild {
+  width: 8px;
+  height: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+}
+.bulletCircle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.oneLowercaseCharacter4 {
+  position: relative;
+  font-weight: 500;
+}
+.bulletPoint4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+}
+.bulletPointItem {
+  height: 8px;
+  width: 8px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-dimgray-200);
+  flex-shrink: 0;
+}
+.oneLowercaseCharacter5 {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+}
+.bulletList,
+.bulletPoint5 {
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.bulletPoint5 {
+  height: 37px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-5xs) var(--padding-5xs) 0;
+  gap: var(--gap-5xs);
+  font-family: var(--font-poppins);
+}
+.bulletList {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-lg);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray-200);
+}
+.passwordField {
+  color: var(--color-dimgray-100);
+  font-family: var(--font-lufga);
+}
+.formFields,
+.imageAndFormColumnParent,
+.passwordField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formFields {
+  gap: var(--gap-13xl);
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-poppins);
+}
+.imageAndFormColumnParent {
+  gap: var(--gap-4xl);
+  font-size: var(--font-size-13xl);
+}
+.checkBox1,
+.iWantTo {
+  margin: 0;
+  position: relative;
+}
+.checkBox1 {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iWantTo {
+  flex: 1;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 392px;
+  max-width: 100%;
+}
+.checkBox {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-11xl) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.byCreatingAn {
+  color: var(--color-darkslategray-200);
+}
+.termsOfUse {
+  text-decoration: underline;
+}
+.span1 {
+  color: var(--color-dimgray-100);
+}
+.and {
+  color: var(--color-darkslategray-200);
+}
+.span2,
+.span3 {
+  color: var(--color-dimgray-100);
+}
+.privacyPolicy {
+  text-decoration: underline;
+}
+.byCreatingAnContainer {
+  position: relative;
+  font-weight: 500;
+}
+.linkText {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-9xl) var(--padding-5xs) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  color: var(--color-gray-100);
+}
+.icons,
+.signUp {
+  position: relative;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.signUp {
+  height: 29px;
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--white-w100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.signupLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signupLabel {
+  gap: var(--gap-5xs);
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mid) var(--padding-16xl) var(--padding-lg);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  opacity: 0.25;
+}
+.alreadyHaveAn1 {
+  color: var(--color-darkslategray-200);
+}
+.span4 {
+  color: var(--color-dimgray-100);
+}
+.logIn1 {
+  text-decoration: underline;
+  white-space: pre-wrap;
+}
+.alreadyHaveAnContainer1 {
+  position: relative;
+  font-weight: 500;
+}
+.buttons,
+.frameParent,
+.haveAnAccountLogin1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.haveAnAccountLogin1 {
+  flex-direction: row;
+  padding: var(--padding-11xs);
+}
+.buttons,
+.frameParent {
+  flex-direction: column;
+}
+.buttons {
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-5xs);
+  color: var(--color-gray-100);
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-18xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1050px) {
+  .welcomeToMyeasypharma {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .bulletList,
+  .imageAndFormColumn {
+    flex-wrap: wrap;
+  }
+  .formFields {
+    gap: var(--gap-base);
+  }
+  .iWantTo {
+    min-width: 100%;
+  }
+  .checkBox {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .welcomeToMyeasypharma {
+    font-size: var(--font-size-lgi);
+  }
+  .passwordWrapper {
+    flex-wrap: wrap;
+  }
+  .signUp {
+    font-size: var(--text-2-strong-size);
+  }
+}

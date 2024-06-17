@@ -1,0 +1,581 @@
+.divider2 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider,
+.divider1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider1 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider {
+  align-self: stretch;
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle,
+.title {
+  flex: 1;
+  max-width: 100%;
+}
+.blocktitle {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 733px;
+}
+.iMathPlus {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header,
+.surface,
+.xmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.xmark {
+  align-items: flex-start;
+}
+.header,
+.surface {
+  max-width: 100%;
+}
+.header {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider4,
+.divider5 {
+  flex: 1;
+  max-width: 100%;
+}
+.divider5 {
+  height: 0;
+  position: relative;
+}
+.divider4 {
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+}
+.block,
+.divider3,
+.divider4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider3 {
+  align-self: stretch;
+  height: 3px;
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block {
+  width: 1168px;
+  flex-direction: column;
+  z-index: 4;
+}
+.divider8 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider6,
+.divider7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider7 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider6 {
+  align-self: stretch;
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle1 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+}
+.title1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 733px;
+  max-width: 100%;
+}
+.iMathPlus1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header1,
+.surface1,
+.xmark1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.xmark1 {
+  align-items: flex-start;
+}
+.header1,
+.surface1 {
+  max-width: 100%;
+}
+.header1 {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface1 {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider11 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider10 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block1,
+.divider10,
+.divider9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider9 {
+  align-self: stretch;
+  height: 3px;
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block1 {
+  width: 1168px;
+  flex-direction: column;
+  z-index: 5;
+  font-family: var(--font-lufga);
+}
+.divider14 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider12,
+.divider13 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider13 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider12 {
+  align-self: stretch;
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle2 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+}
+.title2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 733px;
+  max-width: 100%;
+}
+.iMathPlus2 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header2,
+.surface2,
+.xmark2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.xmark2 {
+  align-items: flex-start;
+}
+.header2,
+.surface2 {
+  max-width: 100%;
+}
+.header2 {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface2 {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider17 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider16 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block2,
+.divider15,
+.divider16 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider15 {
+  align-self: stretch;
+  height: 3px;
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block2 {
+  width: 1168px;
+  flex-direction: column;
+  z-index: 6;
+}
+.divider20 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider18,
+.divider19 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider19 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider18 {
+  align-self: stretch;
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle3 {
+  flex: 1;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+  max-width: 100%;
+}
+.title3 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 733px;
+  max-width: 100%;
+}
+.iMathPlus3 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header3,
+.surface3,
+.xmark3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.xmark3 {
+  align-items: flex-start;
+}
+.header3,
+.surface3 {
+  max-width: 100%;
+}
+.header3 {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface3 {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider23 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider22 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block3,
+.divider21,
+.divider22 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider21 {
+  align-self: stretch;
+  height: 3px;
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block3 {
+  width: 1168px;
+  flex-direction: column;
+  z-index: 7;
+  font-family: var(--font-lufga);
+}
+.divider26 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider24,
+.divider25 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider25 {
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider24 {
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle4,
+.title4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.blocktitle4 {
+  position: relative;
+  line-height: 120%;
+  align-items: center;
+}
+.title4 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iMathPlus4 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.xmark4 {
+  display: flex;
+  align-items: flex-start;
+}
+.header4,
+.surface4,
+.xmark4 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.header4 {
+  height: 66px;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface4 {
+  height: 72px;
+  width: 301.5px;
+  display: none;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider29 {
+  align-self: stretch;
+  height: 0;
+  position: relative;
+}
+.divider27,
+.divider28 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider28 {
+  align-self: stretch;
+  background-color: var(--color-lavender);
+  display: flex;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider27 {
+  height: 3px;
+  width: 301px;
+  display: none;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.block4,
+.blockParent,
+.blocks {
+  display: flex;
+  align-items: flex-start;
+}
+.block4 {
+  width: 1168px;
+  flex-direction: row;
+  justify-content: flex-start;
+  z-index: 8;
+  color: var(--text-txt-primary);
+}
+.blockParent,
+.blocks {
+  flex-direction: column;
+  max-width: 100%;
+}
+.blockParent {
+  width: 1168px;
+  overflow-x: auto;
+  justify-content: flex-start;
+}
+.blocks {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lg);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--text-2-strong-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-2-strong);
+}
+@media screen and (max-width: 1000px) {
+  .header,
+  .header1,
+  .header2,
+  .header3 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 975px) {
+  .title,
+  .title1,
+  .title2,
+  .title3 {
+    min-width: 100%;
+  }
+}

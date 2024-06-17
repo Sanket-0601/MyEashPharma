@@ -1,0 +1,119 @@
+.blog2Child {
+  align-self: stretch;
+  width: 1192px;
+  position: relative;
+  border-radius: 54.59px;
+  max-height: 100%;
+  display: none;
+  min-height: 333px;
+  max-width: 100%;
+}
+.patternsOfLifestyle {
+  width: 526px;
+  height: 76.4px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.inTodaysFastPaced {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-4xl-8);
+  z-index: 1;
+}
+.relatedBlogContent,
+.relatedBlogTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.relatedBlogTitle {
+  align-self: stretch;
+  gap: var(--gap-lg-6);
+}
+.relatedBlogContent {
+  flex: 1;
+  padding: var(--padding-21xl) 0 0;
+  box-sizing: border-box;
+  min-width: 388px;
+}
+.image14Icon {
+  width: 520.7px;
+  position: relative;
+  border-radius: 0 54.59px 54.59px 0;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.blog2,
+.relatedBlogsContainer {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.blog2 {
+  align-self: stretch;
+  box-shadow: 6px 4px 19.85px rgba(0, 0, 0, 0.25);
+  border-radius: 54.59px;
+  background-color: var(--color-cadetblue-300);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-30xl);
+  gap: var(--gap-8xl);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  z-index: 1;
+}
+.relatedBlogsContainer {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-19xl-5);
+  min-width: 776px;
+  text-align: left;
+  font-size: var(--font-size-10xl-8);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1200px) {
+  .blog2 {
+    padding-left: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .image14Icon {
+    flex: 1;
+  }
+  .blog2 {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .relatedBlogsContainer {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .relatedBlogContent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .patternsOfLifestyle {
+    font-size: var(--font-size-5xl);
+  }
+  .inTodaysFastPaced {
+    font-size: var(--font-size-lgi);
+  }
+}

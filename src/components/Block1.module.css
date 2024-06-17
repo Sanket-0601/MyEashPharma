@@ -1,0 +1,118 @@
+.divider2 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider,
+.divider1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.divider1 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  align-items: flex-start;
+  padding: var(--padding-11xs-5) 0;
+}
+.divider {
+  align-self: stretch;
+  height: 3px;
+  align-items: flex-end;
+  padding: 0 0 var(--padding-11xs-5);
+}
+.blocktitle,
+.title {
+  flex: 1;
+  max-width: 100%;
+}
+.blocktitle {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 733px;
+}
+.iMathPlus {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header,
+.surface,
+.xmark {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.xmark {
+  align-items: flex-start;
+}
+.header,
+.surface {
+  max-width: 100%;
+}
+.header {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.surface {
+  align-self: stretch;
+  align-items: center;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+}
+.divider5 {
+  height: 0;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.divider4 {
+  flex: 1;
+  background-color: var(--color-lavender);
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0;
+  box-sizing: border-box;
+}
+.block,
+.divider3,
+.divider4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.divider3 {
+  align-self: stretch;
+  height: 3px;
+  flex-direction: row;
+  padding: var(--padding-11xs-5) 0 0;
+  box-sizing: border-box;
+}
+.block {
+  width: 1168px;
+  flex-direction: column;
+  z-index: 3;
+  text-align: left;
+  font-size: var(--text-2-strong-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-2-strong);
+}
+@media screen and (max-width: 1125px) {
+  .title {
+    min-width: 100%;
+  }
+}

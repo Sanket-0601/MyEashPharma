@@ -1,0 +1,125 @@
+.socialIcon {
+  width: 37px;
+  height: 34px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 8;
+}
+.ourServicesChild {
+  height: 63px;
+  width: 202px;
+  position: relative;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.ourServicesItem {
+  height: 25px;
+  width: 14.7px;
+  position: relative;
+  object-fit: contain;
+  z-index: 1;
+}
+.ourServices1 {
+  height: 28px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--font-lufga);
+  color: var(--text-txt-primary);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.ourServices {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-4xl) var(--padding-mid)
+    var(--padding-18xl);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-12xl-5);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs-3);
+  white-space: nowrap;
+  z-index: 4;
+}
+.ourServices:hover {
+  background-color: var(--color-silver-100);
+}
+.socialIcon1,
+.socialIcon2 {
+  width: 33px;
+  height: 31px;
+  position: relative;
+  object-fit: cover;
+  z-index: 8;
+}
+.socialIcon2 {
+  height: 29px;
+}
+.socialContainer,
+.socialRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialRow {
+  gap: var(--gap-xl);
+}
+.socialContainer {
+  padding: var(--padding-11xl) 0 0;
+}
+.servicesBlock,
+.servicesBlockWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.servicesBlock {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.servicesBlockWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.socialBlock {
+  width: 1332px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-20xl);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+}
+.socialBlockWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-16xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .socialBlock {
+    gap: var(--gap-lgi);
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicesBlock {
+    flex-wrap: wrap;
+  }
+}

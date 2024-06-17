@@ -1,0 +1,108 @@
+.myeasypharmaIsAt {
+  display: block;
+}
+.myeasypharmaIsAtContainer {
+  margin: 0;
+  width: 982px;
+  height: 117px;
+  position: relative;
+  font-weight: 700;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.atMyeasypharmaOur,
+.vision {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.vision {
+  width: 208px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.atMyeasypharmaOur {
+  margin: 0;
+  height: 115px;
+  flex: 1;
+  max-width: 100%;
+}
+.image7Icon {
+  height: 225px;
+  width: 225px;
+  position: absolute;
+  margin: 0 !important;
+  top: -67px;
+  right: -212px;
+  object-fit: cover;
+  z-index: 2;
+}
+.visionDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  max-width: 100%;
+  font-size: var(--font-size-8xl);
+}
+.visionParent {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mini);
+  margin-top: -19px;
+  font-size: var(--font-size-21xl);
+}
+.leftContent,
+.mainContent,
+.visionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.leftContent {
+  flex: 1;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.mainContent {
+  width: 1211px;
+  flex-direction: row;
+  padding: 0 var(--padding-59xl) var(--padding-4xl-3);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1200px) {
+  .mainContent {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .myeasypharmaIsAtContainer {
+    font-size: var(--font-size-5xl);
+  }
+  .vision {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .myeasypharmaIsAtContainer {
+    font-size: var(--text-2-strong-size);
+  }
+  .vision {
+    font-size: var(--font-size-5xl);
+  }
+  .atMyeasypharmaOur {
+    font-size: var(--font-size-3xl);
+  }
+}

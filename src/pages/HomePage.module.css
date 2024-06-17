@@ -1,0 +1,227 @@
+.backgroundPatternIcon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: -3.2px;
+  bottom: -5px;
+  object-fit: cover;
+  z-index: 3;
+}
+.aiCuratedCorporate {
+  height: 51px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 4;
+}
+.aiCuratedCorporateWellnessWrapper {
+  width: 503px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.myeasypharma {
+  margin: 0;
+  height: 95px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 5;
+}
+.homeImageIcon,
+.homeImageIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.homeImageIcon {
+  display: none;
+  z-index: 6;
+}
+.homeImageIcon1 {
+  z-index: 7;
+}
+.socialIcon {
+  position: absolute;
+  top: 678px;
+  left: 911px;
+  width: 19px;
+  height: 31px;
+  z-index: 8;
+}
+.homeImage {
+  height: 792px;
+  width: 930px;
+  position: absolute;
+  margin: 0 !important;
+  right: -731px;
+  bottom: -498px;
+  background-image: url(/public/home-image1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 6;
+}
+.brand,
+.contentBlock {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.brand {
+  flex-direction: row;
+  position: relative;
+  margin-top: -26px;
+  font-size: 70px;
+}
+.contentBlock {
+  flex-direction: column;
+}
+.getStartedButtonChild {
+  height: 63px;
+  width: 202px;
+  position: relative;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.getStartedFor {
+  height: 26px;
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-lufga);
+  color: var(--white-w100);
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.getStartedButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-6xl) 19px var(--padding-7xl);
+  background-color: var(--color-cadetblue-200);
+  border-radius: var(--br-12xl-5);
+  flex-direction: row;
+  white-space: nowrap;
+  z-index: 4;
+}
+.getStartedButton:hover {
+  background-color: var(--color-cadetblue-100);
+}
+.content,
+.contentBlockParent,
+.getStartedButton,
+.homePage,
+.homePage1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contentBlockParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+}
+.content,
+.homePage,
+.homePage1 {
+  box-sizing: border-box;
+}
+.content {
+  width: 738px;
+  flex-direction: row;
+  padding: 0 73px 167px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.homePage,
+.homePage1 {
+  position: relative;
+}
+.homePage1 {
+  height: 1024px;
+  flex: 1;
+  background: linear-gradient(270deg, #f2f2f2);
+  flex-direction: column;
+  padding: var(--padding-43xl) 0 var(--padding-62xl);
+  gap: 81px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lufga);
+}
+.homePage {
+  width: 100%;
+  flex-direction: row;
+  padding: 0 0 1024px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .homePage1 {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .myeasypharma {
+    font-size: 56px;
+  }
+  .homePage1 {
+    padding-top: var(--padding-7xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content {
+    padding-left: var(--padding-17xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .homePage1 {
+    gap: 40px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .aiCuratedCorporate {
+    font-size: var(--text-2-strong-size);
+  }
+  .myeasypharma {
+    font-size: 42px;
+  }
+  .content,
+  .homePage1 {
+    box-sizing: border-box;
+  }
+  .content {
+    padding-bottom: 109px;
+  }
+  .homePage1 {
+    height: auto;
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-3xl);
+  }
+}

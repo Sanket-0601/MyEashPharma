@@ -1,0 +1,57 @@
+.socialIcon,
+.socialIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.socialIcon {
+  width: 37px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialIcon1 {
+  height: 31px;
+  width: 19px;
+}
+.socialWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.socialIcon2 {
+  height: 31px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.socialContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.socialIcon3 {
+  height: 29px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.socialFrame,
+.socialsContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialFrame {
+  flex-direction: row;
+  padding: 0 var(--padding-11xs);
+}
+.socialsContainer {
+  flex-direction: column;
+  gap: var(--gap-lgi-3);
+}

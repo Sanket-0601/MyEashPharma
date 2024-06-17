@@ -1,0 +1,24 @@
+.relatedBlogs {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-41xl-3);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-10xl-8);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 750px) {
+  .relatedBlogs {
+    gap: var(--gap-11xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .relatedBlogs {
+    gap: var(--gap-mini);
+  }
+}

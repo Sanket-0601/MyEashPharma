@@ -1,0 +1,81 @@
+.myeasypharma {
+  font-family: var(--font-lufga);
+}
+.blocktitle,
+.title {
+  flex: 1;
+  max-width: 100%;
+}
+.blocktitle {
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  min-width: 733px;
+}
+.iGamingXmark {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.header,
+.xmark {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.xmark {
+  cursor: pointer;
+}
+.header {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.blocktext {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+  font-weight: 500;
+  white-space: pre-wrap;
+}
+.surface,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+  font-size: var(--font-size-base);
+  font-family: var(--font-lufga);
+}
+.surface {
+  width: 1168px;
+  padding: var(--padding-5xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--text-2-strong-size);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-2-strong);
+}
+@media screen and (max-width: 1125px) {
+  .title {
+    min-width: 100%;
+  }
+}

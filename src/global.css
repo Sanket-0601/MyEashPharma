@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaBlack.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaBlack.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lufga";
+  src: url("/public/LufgaBold.ttf");
+  font-weight: 700;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-lufga: Lufga;
+  --font-poppins: Poppins;
+  --font-dm-sans: "DM Sans";
+  --text-2-strong: Inter;
+
+  /* font sizes */
+  --font-size-7xl-1: 26.1px;
+  --font-size-2xl: 21px;
+  --font-size-lgi: 19px;
+  --font-size-base-6: 16.6px;
+  --font-size-2xl-3: 21.3px;
+  --font-size-mid: 17px;
+  --font-size-9xl-4: 28.4px;
+  --font-size-4xl: 23px;
+  --font-size-base: 16px;
+  --font-size-18xl-9: 37.9px;
+  --font-size-11xl: 30px;
+  --font-size-mini: 15px;
+  --font-size-3xs: 10px;
+  --font-size-xs: 12px;
+  --font-size-smi: 13px;
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-6xs-9: 6.9px;
+  --text-2-strong-size: 18px;
+  --font-size-3xl: 22px;
+  --font-size-41xl: 60px;
+  --font-size-29xl: 48px;
+  --font-size-17xl: 36px;
+  --font-size-5xl: 24px;
+  --font-size-6xl: 25px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-8xl: 27px;
+  --font-size-4xl-8: 23.8px;
+  --font-size-10xl-8: 29.8px;
+  --font-size-31xl: 50px;
+  --font-size-7xl: 26px;
+
+  /* Colors */
+  --white-w100: #fff;
+  --color-gray-100: #111;
+  --color-gray-200: rgba(0, 0, 0, 0);
+  --color-gray-300: rgba(0, 0, 0, 0.4);
+  --color-crimson: #ee1d52;
+  --color-dimgray-100: #666;
+  --color-dimgray-200: rgba(102, 102, 102, 0.6);
+  --color-dimgray-300: rgba(102, 102, 102, 0.25);
+  --color-dimgray-400: rgba(102, 102, 102, 0.8);
+  --color-dimgray-500: rgba(102, 102, 102, 0.35);
+  --color-darkslategray-100: #254336;
+  --color-darkslategray-200: #333;
+  --color-darkslategray-300: rgba(37, 67, 54, 0.7);
+  --color-darkslategray-400: rgba(37, 67, 54, 0.55);
+  --color-darkslategray-500: rgba(37, 67, 54, 0.17);
+  --color-darkslategray-600: rgba(37, 67, 54, 0.8);
+  --color-darkslategray-700: rgba(37, 67, 54, 0.65);
+  --color-lightgray-100: rgba(189, 207, 198, 0.3);
+  --color-lightgray-200: rgba(189, 207, 198, 0.4);
+  --color-sandybrown: #ffa958;
+  --color-lightsteelblue: #93b0c8;
+  --color-cadetblue-100: #85a394;
+  --color-cadetblue-200: #6b8a7a;
+  --color-cadetblue-300: rgba(133, 170, 151, 0.5);
+  --color-silver-100: #c9c9c9;
+  --color-silver-200: #c1cbbd;
+  --color-royalblue: rgba(26, 78, 186, 0.06);
+  --dark-2: #6f6c99;
+  --color-gainsboro-100: #e2e2e2;
+  --color-gainsboro-200: #d7dfd5;
+  --text-txt-primary: #000;
+  --color-tan: #b7b597;
+  --color-lavender: #d7def0;
+
+  /* Gaps */
+  --gap-28xl-4: 47.4px;
+  --gap-5xl: 24px;
+  --gap-9xl-5: 28.5px;
+  --gap-3xs-5: 9.5px;
+  --gap-8xs-7: 4.7px;
+  --gap-8xl-3: 27.3px;
+  --gap-lg-9: 18.9px;
+  --gap-lgi: 19px;
+  --gap-9xl-4: 28.4px;
+  --gap-10xs-4: 2.4px;
+  --gap-15xl: 34px;
+  --gap-mid: 17px;
+  --gap-10xl: 29px;
+  --gap-2xs: 11px;
+  --gap-31xl: 50px;
+  --gap-6xl: 25px;
+  --gap-mini: 15px;
+  --gap-3xs: 10px;
+  --gap-12xs: 1px;
+  --gap-9xs: 4px;
+  --gap-8xs: 5px;
+  --gap-4xs: 9px;
+  --gap-5xs: 8px;
+  --gap-sm: 14px;
+  --gap-xl: 20px;
+  --gap-7xs: 6px;
+  --gap-8xl: 27px;
+  --gap-base: 16px;
+  --gap-10xs: 3px;
+  --gap-lg: 18px;
+  --gap-5xs-5: 7.5px;
+  --gap-10xs-7: 2.7px;
+  --gap-18xl: 37px;
+  --gap-11xs: 2px;
+  --gap-14xl: 33px;
+  --gap-611xl: 630px;
+  --gap-296xl: 315px;
+  --gap-60xl: 79px;
+  --gap-138xl: 157px;
+  --gap-lgi-3: 19.3px;
+  --gap-20xl: 39px;
+  --gap-8xs-3: 4.3px;
+  --gap-4xl: 23px;
+  --gap-27xl: 46px;
+  --gap-11xl: 30px;
+  --gap-41xl-3: 60.3px;
+  --gap-lg-6: 18.6px;
+  --gap-50xl: 69px;
+  --gap-13xl: 32px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-9xl: 28px;
+  --padding-xl-4: 20.4px;
+  --padding-2xl-4: 21.4px;
+  --padding-2xl: 21px;
+  --padding-52xl: 71px;
+  --padding-6xs: 7px;
+  --padding-mid-2: 17.2px;
+  --padding-5xl: 24px;
+  --padding-3xl: 22px;
+  --padding-10xs-8: 2.8px;
+  --padding-4xl: 23px;
+  --padding-11xs-9: 1.9px;
+  --padding-12xs-1: 0.1px;
+  --padding-10xs-4: 2.4px;
+  --padding-11xs: 2px;
+  --padding-10xs-3: 2.3px;
+  --padding-26xl: 45px;
+  --padding-15xl: 34px;
+  --padding-9xs: 4px;
+  --padding-10xs: 3px;
+  --padding-8xl: 27px;
+  --padding-sm: 14px;
+  --padding-21xl: 40px;
+  --padding-25xl: 44px;
+  --padding-27xl: 46px;
+  --padding-12xs: 1px;
+  --padding-2xs: 11px;
+  --padding-5xs: 8px;
+  --padding-7xs: 6px;
+  --padding-mini: 15px;
+  --padding-8xs: 5px;
+  --padding-16xl: 35px;
+  --padding-10xl: 29px;
+  --padding-11xl: 30px;
+  --padding-13xl: 32px;
+  --padding-xs: 12px;
+  --padding-mid: 17px;
+  --padding-6xl: 25px;
+  --padding-lg: 18px;
+  --padding-7xl: 26px;
+  --padding-smi: 13px;
+  --padding-base: 16px;
+  --padding-10xs-7: 2.7px;
+  --padding-4xs: 9px;
+  --padding-62xl: 81px;
+  --padding-43xl: 62px;
+  --padding-34xl: 53px;
+  --padding-18xl: 37px;
+  --padding-17xl: 36px;
+  --padding-53xl: 72px;
+  --padding-73xl-7: 92.7px;
+  --padding-55xl: 74px;
+  --padding-67xl: 86px;
+  --padding-35xl: 54px;
+  --padding-56xl: 75px;
+  --padding-59xl: 78px;
+  --padding-4xl-3: 23.3px;
+  --padding-20xl: 39px;
+  --padding-41xl: 60px;
+  --padding-12xl: 31px;
+  --padding-19xl-5: 38.5px;
+  --padding-30xl: 49px;
+  --padding-11xs-5: 1.5px;
+
+  /* Border radiuses */
+  --br-28xl-4: 47.4px;
+  --br-mini-2: 14.2px;
+  --br-lgi: 19px;
+  --br-xl: 20px;
+  --br-3xs: 10px;
+  --br-mini: 15px;
+  --br-6xs-1: 6.1px;
+  --br-4xs-3: 8.3px;
+  --br-31xl: 50px;
+  --br-5xs: 8px;
+  --br-36xl: 55px;
+  --br-6xl: 25px;
+  --br-12xl-5: 31.5px;
+  --br-35xl-6: 54.6px;
+  --br-13xl: 32px;
+  --br-xs: 12px;
+}

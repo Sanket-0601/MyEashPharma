@@ -1,0 +1,524 @@
+.image4Icon {
+  width: 94.8px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: contain;
+}
+.logIn {
+  height: 49px;
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.dontHaveAn {
+  color: var(--color-darkslategray-200);
+}
+.span {
+  color: var(--color-dimgray-100);
+}
+.signUp {
+  text-decoration: underline;
+  white-space: pre-wrap;
+}
+.alreadyHaveAnContainer {
+  position: relative;
+  font-weight: 500;
+}
+.haveAnAccountLogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-4) var(--padding-11xs) var(--padding-10xs-3);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+}
+.logInParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 var(--padding-12xs-1);
+  gap: var(--gap-10xs-4);
+}
+.formContainer,
+.formContainerWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: center;
+}
+.formContainer {
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-9xl-4);
+}
+.formContainerWrapper {
+  height: 196.4px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.socialMediaLogo {
+  height: 37.9px;
+  width: 37.9px;
+  position: relative;
+  min-height: 38px;
+}
+.continueWithFacebook {
+  position: relative;
+  font-size: var(--font-size-7xl-1);
+  font-weight: 600;
+  font-family: var(--font-lufga);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.facebookButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-9) 0 0;
+}
+.socialButtons,
+.socialMediaSignuplogin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.socialButtons {
+  justify-content: flex-start;
+  gap: var(--gap-lg-9);
+}
+.socialMediaSignuplogin {
+  cursor: pointer;
+  border: 1.2px solid var(--color-darkslategray-200);
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-2xl)
+    var(--padding-2xl);
+  background-color: var(--white-w100);
+  align-self: stretch;
+  border-radius: 47.38px;
+  overflow: hidden;
+  justify-content: center;
+}
+.socialMediaLogo1 {
+  width: 28.4px;
+  height: 28.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialMediaLogoWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs-8);
+}
+.continueWithGoogle {
+  position: relative;
+  font-size: var(--font-size-7xl-1);
+  font-weight: 600;
+  font-family: var(--font-lufga);
+  color: var(--color-darkslategray-200);
+  text-align: left;
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.socialLogin,
+.socialMediaSignuplogin1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.socialMediaSignuplogin1 {
+  cursor: pointer;
+  border: 1.2px solid var(--color-darkslategray-200);
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-3xl);
+  background-color: var(--white-w100);
+  border-radius: 47.38px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+}
+.socialLogin {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg-9);
+}
+.divider1 {
+  align-self: stretch;
+  height: 2.4px;
+  position: relative;
+  background-color: var(--color-dimgray-300);
+}
+.dividerWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-2);
+  box-sizing: border-box;
+  min-width: 172px;
+}
+.divider2,
+.or {
+  position: relative;
+}
+.or {
+  height: 37px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.divider2 {
+  align-self: stretch;
+  height: 2.4px;
+  background-color: var(--color-dimgray-300);
+}
+.dividerContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-mid-2);
+  box-sizing: border-box;
+  min-width: 172px;
+}
+.divider,
+.label {
+  color: var(--color-dimgray-100);
+  text-align: left;
+}
+.divider {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-8xl-3);
+  font-size: var(--font-size-9xl-4);
+}
+.label {
+  height: 25px;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  display: inline-block;
+}
+.hide,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 3.6px;
+  right: 57.5px;
+  width: 28.4px;
+  height: 28.4px;
+  overflow: hidden;
+}
+.hide {
+  top: 0;
+  right: 0;
+  font-size: var(--font-size-2xl-3);
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-400);
+  text-align: right;
+}
+.passwordHideSee {
+  height: 32px;
+  width: 85.9px;
+  position: relative;
+  display: none;
+}
+.emailLabel,
+.textField1 {
+  align-self: stretch;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.emailLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+}
+.textField1 {
+  border: 1.2px solid var(--color-dimgray-500);
+  outline: 0;
+  background-color: transparent;
+  height: 66.3px;
+  position: relative;
+  border-radius: 14.21px;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 250px;
+}
+.errorMessage {
+  width: 120px;
+  position: relative;
+  font-size: var(--font-size-base-6);
+  font-family: var(--font-poppins);
+  color: var(--color-crimson);
+  text-align: left;
+  display: none;
+}
+.textField {
+  align-self: stretch;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-52xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs-7);
+}
+.label1 {
+  height: 25px;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--color-dimgray-100);
+  text-align: left;
+  display: inline-block;
+}
+.hide1,
+.icon1 {
+  position: absolute;
+}
+.icon1 {
+  top: 3.5px;
+  right: 6251.5px;
+  width: 28.4px;
+  height: 28.4px;
+  overflow: hidden;
+}
+.hide1 {
+  top: 0;
+  right: 0;
+  font-size: var(--font-size-2xl-3);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--color-dimgray-400);
+  text-align: right;
+}
+.passwordHideSee1 {
+  height: 32px;
+  width: 6279.9px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.passwordLabel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lgi);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.inputsChild {
+  height: 28.4px;
+  width: 1.2px;
+  position: relative;
+  background-color: var(--color-gray-100);
+}
+.icons,
+.inputs {
+  position: absolute;
+  display: none;
+}
+.inputs {
+  top: 17.8px;
+  left: 28.4px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.icons {
+  top: 47.4px;
+  right: 29.2px;
+  width: 28.4px;
+  height: 28.4px;
+  overflow: hidden;
+}
+.textField3 {
+  align-self: stretch;
+  height: 66.3px;
+  position: relative;
+  border-radius: 14.21px;
+  border: 1.2px solid var(--color-dimgray-500);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+}
+.errorMessage1 {
+  width: 120px;
+  position: relative;
+  font-size: var(--font-size-base-6);
+  font-family: var(--font-poppins);
+  color: var(--color-crimson);
+  text-align: left;
+  display: none;
+}
+.textField2 {
+  align-self: stretch;
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-52xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs-7);
+  max-width: 100%;
+}
+.forgetYourPassword {
+  position: relative;
+  font-size: var(--font-size-lgi);
+  text-decoration: underline;
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--color-gray-100);
+  text-align: right;
+}
+.passwordField {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+  max-width: 100%;
+}
+.icons1 {
+  height: 28.4px;
+  width: 28.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.signUp1 {
+  height: 34px;
+  position: relative;
+  font-size: var(--font-size-7xl-1);
+  font-weight: 500;
+  font-family: var(--font-lufga);
+  color: var(--white-w100);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttonLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs-5);
+}
+.button,
+.content,
+.inputFields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xl-4) var(--padding-xl) var(--padding-2xl-4)
+    var(--padding-2xl);
+  background-color: var(--color-gray-100);
+  border-radius: 47.38px;
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  opacity: 0.25;
+}
+.content,
+.inputFields {
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputFields {
+  margin: 0;
+  gap: var(--gap-9xl-5);
+}
+.content {
+  gap: var(--gap-28xl-4);
+  text-align: center;
+  font-size: var(--font-size-18xl-9);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1050px) {
+  .logIn {
+    font-size: var(--font-size-11xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .divider {
+    flex-wrap: wrap;
+  }
+  .content {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .logIn {
+    font-size: var(--font-size-4xl);
+  }
+  .continueWithFacebook {
+    font-size: var(--font-size-2xl);
+  }
+  .socialButtons {
+    flex-wrap: wrap;
+  }
+  .continueWithGoogle {
+    font-size: var(--font-size-2xl);
+  }
+  .or {
+    font-size: var(--font-size-4xl);
+  }
+  .hide,
+  .hide1 {
+    font-size: var(--font-size-mid);
+  }
+  .signUp1 {
+    font-size: var(--font-size-2xl);
+  }
+}

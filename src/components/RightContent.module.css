@@ -1,0 +1,247 @@
+.weProvideComprehensive,
+.whatWeDo {
+  margin: 0;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 69da668;
+  max-width: 100%;
+  z-index: 1;
+}
+.whatWeDo {
+  width: 395px;
+  height: 52px;
+  font-size: inherit;
+  font-family: inherit;
+}
+.weProvideComprehensive {
+  height: 115px;
+  width: 1032px;
+}
+.weProvideComprehensiveProfeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  max-width: 100%;
+  margin-top: -5px;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+}
+.whatWeDoContent,
+.whatWeDoDescription {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.whatWeDoDescription {
+  align-self: stretch;
+}
+.whatWeDoContent {
+  flex: 1;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 721px;
+}
+.image8Icon {
+  height: 193.3px;
+  width: 210px;
+  object-fit: contain;
+}
+.image8Icon,
+.socialIcon,
+.socialIcon1 {
+  position: relative;
+  z-index: 1;
+}
+.socialIcon {
+  width: 37px;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.socialIcon1 {
+  height: 31px;
+  width: 19px;
+}
+.socialButtons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs);
+}
+.socialIcon2 {
+  height: 31px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.socialButtons1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.socialIcon3 {
+  height: 29px;
+  width: 33px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.socialButtons2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xs);
+}
+.socialIcons {
+  flex-direction: column;
+  gap: var(--gap-lgi-3);
+}
+.socialIcons,
+.socialMedia,
+.whatWeDoContentParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMedia {
+  flex-direction: column;
+  padding: var(--padding-56xl) 0 0;
+}
+.whatWeDoContentParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-lg);
+  max-width: 100%;
+}
+.mission,
+.throughOurEfforts {
+  font-weight: 600;
+  display: inline-block;
+}
+.mission {
+  margin: 0 !important;
+  height: 52px;
+  width: 395px;
+  position: absolute;
+  top: -76px;
+  left: -126px;
+  font-size: inherit;
+  font-family: inherit;
+  z-index: 1;
+}
+.throughOurEfforts {
+  height: 115px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-6xl);
+  text-align: left;
+  max-width: 100%;
+  z-index: 2;
+}
+.missionDescription,
+.missionParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.missionParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.missionDescription {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-62xl) 0 0;
+  box-sizing: border-box;
+}
+.image12Icon {
+  height: 210px;
+  width: 210px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.missionContent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  max-width: 100%;
+}
+.missionContentWrapper,
+.rightContent {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.missionContentWrapper {
+  width: 1369px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-35xl);
+}
+.rightContent {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 0;
+  gap: var(--gap-12xs);
+  text-align: center;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-lufga);
+}
+@media screen and (max-width: 1200px) {
+  .missionContentWrapper {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .whatWeDo {
+    font-size: var(--font-size-13xl);
+  }
+  .whatWeDoContent {
+    min-width: 100%;
+  }
+  .mission {
+    font-size: var(--font-size-13xl);
+  }
+  .missionDescription {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatWeDo {
+    font-size: var(--font-size-5xl);
+  }
+  .weProvideComprehensive {
+    font-size: var(--font-size-3xl);
+  }
+  .mission {
+    font-size: var(--font-size-5xl);
+  }
+  .throughOurEfforts {
+    font-size: var(--font-size-xl);
+  }
+}
